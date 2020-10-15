@@ -104,9 +104,10 @@ class _PlacesViewState extends State<PlacesView> {
     else
       customLocation = widget.trip.places.last.location;
 
+//put your Google API_KEY below
     LocationResult result = await Navigator.of(context).push(MaterialPageRoute(
         builder: (context) => PlacePicker(
-              "AIzaSyBzZ6qALND6fMcHzFGSTywE0quCX9J3tVE",
+              "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAa",
               displayLocation: customLocation,
             )));
 
